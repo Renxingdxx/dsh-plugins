@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Renxingdxx's DSH plugins",
+    "zh": "Renxingdxx 的 DSH 插件"
+  },
+  "description": {
+    "en": "Community plugins for DeepSeek Harness: a chat video background with adaptive theme colours, and a custom splash screen with sound.",
+    "zh": "DeepSeek Harness 第三方插件合集：自动适配主题色的聊天视频背景，与带声音的自定义开屏动画。"
+  },
+  "metadata": {
+    "categories": {
+      "appearance": {
+        "title": {
+          "en": "Appearance",
+          "zh": "外观"
+        }
+      },
+      "utility": {
+        "title": {
+          "en": "Utility",
+          "zh": "工具"
+        }
+      }
+    },
+    "labels": {
+      "dsh-plugin": {
+        "title": {
+          "en": "DSH plugin",
+          "zh": "DSH 插件"
+        }
+      },
+      "appearance": {
+        "title": {
+          "en": "Appearance",
+          "zh": "外观"
+        }
+      },
+      "with-assets": {
+        "title": {
+          "en": "Bundled assets",
+          "zh": "内置素材"
+        }
+      }
+    },
+    "sortKeys": {
+      "popularity": {
+        "title": {
+          "en": "Popularity",
+          "zh": "热度"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-chat-background",
+      "title": {
+        "en": "Chat video background",
+        "zh": "聊天视频背景"
+      },
+      "description": {
+        "en": "Loop a video behind the chat (fullscreen or chat-only). Derives the theme from the video's dominant colour with per-frame easing — backgrounds, text, buttons and code blocks all glide. Twelve UI colour roles adapt automatically with WCAG contrast guarantees or take manual colours; frosted panels, region blending, Windows titlebar transparency, background audio (video sound or a custom file), and a floating play button.",
+        "zh": "循环播放视频背景（全屏或仅聊天区）。从画面主体色自动推导主题色并逐帧缓动——背景、文字、按钮、代码块平滑渐变。12 个界面配色角色自动适配（保证 WCAG 对比度）或手动指定；区域混合、磨砂面板、全屏模式 Windows 标题栏透明、背景音频（视频原声/自定义）与浮动播放按钮。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkNoYXQgdmlkZW8gYmFja2dyb3VuZCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyYTJmNTUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMTExMzFmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnbG93IiBjeD0iNTAlIiBjeT0iNTAlIiByPSI1MCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNmY4NmZmIiBzdG9wLW9wYWNpdHk9IjAuODUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNmY4NmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjQiIHk9IjEwIiB3aWR0aD0iNTYiIGhlaWdodD0iNDAiIHJ4PSI3IiBmaWxsPSJ1cmwoI2JnKSIgc3Ryb2tlPSIjNmY4NmZmIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMwIiByPSIxNCIgZmlsbD0idXJsKCNnbG93KSIvPgogIDxwYXRoIGQ9Ik0yNyAyMy41djEzbDEyLTYuNXoiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOTIiLz4KICA8cmVjdCB4PSI0IiB5PSI0MiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjMiIHJ4PSIxLjUiIGZpbGw9IiM2Zjg2ZmYiIG9wYWNpdHk9IjAuMzUiLz4KICA8cmVjdCB4PSI0IiB5PSI1MCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjMiIHJ4PSIxLjUiIGZpbGw9IiM2Zjg2ZmYiIG9wYWNpdHk9IjAuMTgiLz4KICA8Y2lyY2xlIGN4PSI1MiIgY3k9IjUzLjUiIHI9IjIuNCIgZmlsbD0iIzZmODZmZiIgb3BhY2l0eT0iMC44Ii8+Cjwvc3ZnPgo=",
+      "author": "Renxingdxx",
+      "homepage": "https://github.com/Renxingdxx/dsh-plugins/tree/main/plugins/dsh-chat-background",
+      "repository": {
+        "url": "https://github.com/Renxingdxx/dsh-plugins",
+        "directory": "plugins/dsh-chat-background"
+      },
+      "metadata": {
+        "category": "appearance",
+        "labels": [
+          "dsh-plugin",
+          "appearance",
+          "with-assets"
+        ],
+        "keywords": [
+          "chat",
+          "background",
+          "video",
+          "theme",
+          "dominant-color",
+          "audio",
+          "wallpaper",
+          "wcag"
+        ],
+        "sortKeys": {
+          "popularity": 2
+        }
+      },
+      "versions": [
+        {
+          "version": "0.8.2",
+          "publishTimestamp": 1792904970,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Renxingdxx/dsh-plugins",
+            "commit": "4f45f8d9a200be81574b463ba355f6481eacf525",
+            "path": "plugins/dsh-chat-background"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-custom-splash",
+      "title": {
+        "en": "Custom splash screen (with sound)",
+        "zh": "自定义开屏（带声音）"
+      },
+      "description": {
+        "en": "Plays a boot animation with sound before the interface appears, then fades out. Picture and sound are two independent slots, each with built-in defaults; the plugin auto-unmutes on the first click or keypress when the browser blocks audible autoplay.",
+        "zh": "界面出现前先播放一段开屏动画与声音，播完淡出。画面与声音是两个独立槽位，均自带内置素材；浏览器拦截带声自动播放时，首次点击/按键自动解锁声音。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkN1c3RvbSBzcGxhc2ggd2l0aCBzb3VuZCI+CiAgPHJlY3QgeD0iNCIgeT0iMTAiIHdpZHRoPSI1NiIgaGVpZ2h0PSI0MCIgcng9IjciIGZpbGw9IiMxNjE3MWIiIHN0cm9rZT0iIzZmODZmZiIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPHBhdGggZD0iTTI2IDIyLjV2MTlsMTctOS41eiIgZmlsbD0iIzZmODZmZiIvPgogIDxwYXRoIGQ9Ik00NCAyNC41YzIuMiAxLjcgMi4yIDEyLjMgMCAxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNmY4NmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC44NSIvPgogIDxwYXRoIGQ9Ik00OC41IDIxLjVjMy42IDIuOCAzLjYgMTcuMiAwIDIwIiBmaWxsPSJub25lIiBzdHJva2U9IiM2Zjg2ZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIwLjUiLz4KICA8cGF0aCBkPSJNNCA0Mmg1NiIgc3Ryb2tlPSIjNmY4NmZmIiBzdHJva2Utd2lkdGg9IjAiIC8+CiAgPHJlY3QgeD0iOSIgeT0iNDUiIHdpZHRoPSIxNCIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD0iIzZmODZmZiIgb3BhY2l0eT0iMC41NSIvPgogIDxyZWN0IHg9IjI3IiB5PSI0NSIgd2lkdGg9IjI4IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjZjNmNGY2IiBvcGFjaXR5PSIwLjMiLz4KICA8cmVjdCB4PSI0IiB5PSI1MyIgd2lkdGg9IjU2IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjNmY4NmZmIiBvcGFjaXR5PSIwLjIyIi8+Cjwvc3ZnPgo=",
+      "author": "Renxingdxx",
+      "homepage": "https://github.com/Renxingdxx/dsh-plugins/tree/main/plugins/dsh-custom-splash",
+      "repository": {
+        "url": "https://github.com/Renxingdxx/dsh-plugins",
+        "directory": "plugins/dsh-custom-splash"
+      },
+      "metadata": {
+        "category": "appearance",
+        "labels": [
+          "dsh-plugin",
+          "appearance",
+          "with-assets"
+        ],
+        "keywords": [
+          "splash",
+          "boot",
+          "startup",
+          "animation",
+          "sound",
+          "audio",
+          "video"
+        ],
+        "sortKeys": {
+          "popularity": 1
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792904970,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Renxingdxx/dsh-plugins",
+            "commit": "4f45f8d9a200be81574b463ba355f6481eacf525",
+            "path": "plugins/dsh-custom-splash"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0"
+          }
+        }
+      ]
+    }
+  ]
+}
